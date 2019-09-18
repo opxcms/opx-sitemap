@@ -1,0 +1,34 @@
+{
+  "name": "opxcms/opx-sitemap",
+  "description": "OpxCMS sitemap module.",
+  "type": "library",
+  "keywords": [
+    "opxcms",
+    "sitemap",
+    "module"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/opxcms/opx-sitemap/issues",
+    "source": "https://github.com/opxcms/opx-sitemap"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcms@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "opxcms/opx-foundation": "^1.0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Opx\\SiteMap\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
