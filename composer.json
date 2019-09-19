@@ -30,5 +30,10 @@
       "Modules\\Opx\\SiteMap\\": "src/"
     }
   },
+  "extra": {
+    "opxcms" : {
+      "module": "Modules\\Opx\\SiteMap\\SiteMap"
+    }
+  },
   "minimum-stability": "dev"
 }
